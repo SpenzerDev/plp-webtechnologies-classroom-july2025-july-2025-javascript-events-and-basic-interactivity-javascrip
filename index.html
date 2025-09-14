@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Events, Interactive Elements &b Form Validation.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+         <section id="counter">
+        <h2>Interactive Counter</h2>
+        <div class="counter">
+            <button class="counter-btn" id="decrease">-</button>
+            <div class="counter-value" id="count">0</div>
+            <button class="counter-btn" id="increase">+</button>
+        </div>
+        <section class="theme-toggle">
+        <h2>Theme Switcher</h2>
+        <button class="btn theme-btn" id="themeToggle">Toggle Dark Mode</button>
+    </section>
+        
+        
+       <!-- form validation -->
+    <form id="myForm">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <span id="usernameError" class="error"></span>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span id="passwordError" class="error"></span>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <p>&copy; 2025 All rights reserved.</p>
+    </footer>
+    <!-- DOM property -->
+    <script src="script.js"></script>
+</body>
+</html>
